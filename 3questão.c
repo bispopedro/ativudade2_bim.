@@ -1,13 +1,14 @@
-#include <stdio.h>
+include <stdio.h>
 
 
 int main(){
-    int numero;
+    int nume;
     printf("informe um numero inteiro:");
-    scanf("%d",&numero);
+    scanf("%d",&nume);
     
-    if(numero%2==0){
-        printf("%d é um numero par,\n",numero);
-         }else{printf("%d e um numero impar\n",numero);}
-         return 0;
+    if(nume%2==0){
+        printf("%d é um numero par,\n",nume);
+         }else{ printf("%d e um numero impar\n",nume);}
+return 0;
+    
 }
